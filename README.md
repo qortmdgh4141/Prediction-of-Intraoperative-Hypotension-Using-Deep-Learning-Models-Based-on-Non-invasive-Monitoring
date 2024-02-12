@@ -1,11 +1,11 @@
-# 👨‍👨‍👦‍👦🏻  Prediction of Intraoperative Hypotension Using Deep Learning Models Based on Non-invasive Monitoring Devices
+# 💉  Prediction of Intraoperative Hypotension Using Deep Learning Models Based on Non-invasive Monitoring Devices
 
  
-### Abstract <br/>
+### Abstract <br/><br/>
 
  - _Intraoperative hypotension is associated with adverse outcomes. Predicting and proactively managing hypotension can reduce its incidence. Previously, hypotension prediction algorithms using artificial intelligence were developed for invasive arterial blood pressure monitors. This study tested whether routine non-invasive monitors could also predict intraoperative hypotension using deep learning algorithms._ <br/><br/>
 
-### Dataset <br/>
+### Dataset <br/><br/>
 
 - _An open-source database was used for algorithm development and internal validation (http://vitaldb.net/dataset). The open-source database consisted of 6388 patients who underwent non-cardiac surgery between June 2016 and August 2017 at Seoul National University Hospital,  South Korea, a tertiary referral hospital._ <br/>
 
@@ -25,7 +25,7 @@
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
 
-### Data Preparation <br/>
+### Data Preparation <br/><br/>
 
 - _All monitoring data were sampled from the source database at a rate of 100 Hz. Waveform data, such as electrocardiography, photoplethysmography, and capnography, were recorded continuously._ <br/>
 
@@ -56,11 +56,9 @@
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
 
-### Model Development  <br/>
+### Model Development  <br/><br/>
 
-- _The deep learning model was built using the Multi-head Attention model for feature-wise information and the Globally Attentive Locally Recurrent (GALR) model for time-wise information._ <br/>
-
-- _The Multi-head Attention model made predictions by considering the importance ratio of the attributes in the input data. The GALR model evaluated the importance of time in input data. Finally, a fully connected model was developed by combining the Multi-head Attention and GALR models._ <br/>
+- _The deep learning model was built using the Multi-head Attention model for feature-wise information and the Globally Attentive Locally Recurrent (GALR) model for time-wise information. The Multi-head Attention model made predictions by considering the importance ratio of the attributes in the input data. The GALR model evaluated the importance of time in input data. Finally, a fully connected model was developed by combining the Multi-head Attention and GALR models._ <br/>
 
 - _This approach enabled the model to leverage the strengths of both the feature and time axes, thereby enhancing its ability to effectively predict hypotension events._ <br/><br/>
 
@@ -71,7 +69,7 @@
 </p> 
 
 
-### Metrix <br/>
+### Metrix <br/><br/>
 
 - _The primary outcome was the area under the receiver operating characteristic curve (AUROC) for the classification models._ <br/>
 <p align="center">
@@ -82,7 +80,6 @@
 
 - _The secondary outcomes included the accuracy, sensitivity, and specificity of the established model._ <br/>
   
-- _The primary outcome was the area under the receiver operating characteristic curve (AUROC) for the classification models._ <br/>
 <p align="center">
   <img width="70%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig8.png?raw=true">
   <br>
@@ -91,7 +88,7 @@
 
 - _The study outcomes were presented with 95% confidence intervals (CIs) estimated using the bootstrapping method. Descriptive statistics were used to describe patient characteristics and were expressed as means ± standard deviation (SD) or absolute numbers (proportion), as appropriate. The chi-square test for categorical variables and t-test for continuous variables were performed for comparative analysis._ <br/><br/>
 
-### Result <br/>
+### Result <br/><br/>
 
 - _The fully connected model, which combines the Multi-head Attention and the GALR model with a Focal Loss function, achieved the highest AUROC of 0.917 (95% CI, 0.915–0.918) for the test set of the original data and 0.833 (95% CI, 0.830–0.836) for the external validation dataset. The secondary outcomes, including accuracy, sensitivity, and specificity, are presented in Table 1._ <br/>
 
@@ -104,21 +101,29 @@
 - _We introduced attention mechanisms into our architecture. Figure 4 illustrates the attention map analysis employed to visualize the features and time domains utilized for decision-making in hypotension events. According to the attention map, our algorithm utilized data from each monitor with weights ranging from 5% to 22% for determining hypotension._ <br/>
 
 <p align="center">
-  <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig10.png?raw=true">
+  <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig10_.png?raw=true">
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
 
 - _Among them, the bispectral index had the highest weight (20%) in predicting hypotension, and mean  blood pressure had the highest weight (22%) in predicting non-hypotension._ <br/>
 
-![image](https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/assets/91899326/eabca6c0-db7b-4047-b75b-cec407595fcf)
+<p align="center">
+  <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig11.png?raw=true">
+  <br>
+  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+</p> 
 
 - _Figure 3 is a monitor equipped with the algorithm, in which the circle changes from green to red, 
 indicating that the patient is likely to develop hypotension in 5 min._ <br/>
 
-![image](https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/assets/91899326/224db891-bb33-4a37-a16c-bcbeae16cea1)
+<p align="center">
+  <img width="60%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig12.png?raw=true">
+  <br>
+  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+</p> 
 
-## Conclusion <br/>
+### Conclusion <br/> <br/>
 
 - _In conclusion, a deep learning algorithm based on routine non-invasive monitoring could predict the occurrence of intraoperative hypotension in diverse patients and surgeries. Our findings can expand the application of medical AI to a broad population undergoing surgery with only basic monitoring. Future research should test whether this algorithm is highly accurate when applied prospectively in clinical practice and whether it could improve postoperative outcomes._ <br/><br/><br/>
 
@@ -133,6 +138,23 @@ indicating that the patient is likely to develop hypotension in 5 min._ <br/>
   <img src="https://img.shields.io/badge/PyTorch-FF9900?style=flat-square&logo=PyTorch&logoColor=EE4C2C"/>
   <img src="https://img.shields.io/badge/Numpy-013243?style=flat-square&logo=Numpy&logoColor=blue"/>
 </p>
+
+### 💻 S/W Development Environment
+<p>
+  <img src="https://img.shields.io/badge/Windows 10-0078D6?style=flat-square&logo=Windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NVIDIA-black?style=flat-square&logo=NVIDIA&logoColor=76B900"/>
+  <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=flat-square&logo=Visual studio&logoColor=white"/> 
+</p>  
+<p>
+  <img src="https://img.shields.io/badge/PyCharm-66FF00?style=flat-square&logo=PyCharm&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Anaconda-e9e9e9?style=flat-square&logo=Anaconda&logoColor=44A833"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+</p>
+<p>
+   <img src="https://img.shields.io/badge/PyTorch-FF9900?style=flat-square&logo=PyTorch&logoColor=EE4C2C"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=Numpy&logoColor=blue"/>
+  <img src="https://img.shields.io/badge/scikit learn-blue?style=flat-square&logo=scikitlearn&logoColor=F7931E"/>
+</p>   
 
 ### 💾 Datasets used in the project
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AI Hub Dataset : Korean Face Image <br/>
