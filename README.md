@@ -1,11 +1,11 @@
 # 💉  Prediction of Intraoperative Hypotension Using Deep Learning Models Based on Non-invasive Monitoring Devices
 <br/>
  
-### Abstract <br/><br/>
+### Abstract <br/>
 
  - _Intraoperative hypotension is associated with adverse outcomes. Predicting and proactively managing hypotension can reduce its incidence. Previously, hypotension prediction algorithms using artificial intelligence were developed for invasive arterial blood pressure monitors. This study tested whether routine non-invasive monitors could also predict intraoperative hypotension using deep learning algorithms._ <br/><br/>
 
-### Participants and Dataset <br/><br/>
+### Participants and Dataset <br/>
 
 - _An open-source database was used for algorithm development and internal validation (http://vitaldb.net/dataset). The open-source database consisted of 6388 patients who underwent non-cardiac surgery between June 2016 and August 2017 at Seoul National University Hospital,  South Korea, a tertiary referral hospital._ <br/>
 
@@ -27,7 +27,7 @@
 </p> 
 <br>
 
-### Data Preparation <br/><br/>
+### Data Preparation <br/>
 
 - _All monitoring data were sampled from the source database at a rate of 100 Hz. Waveform data, such as electrocardiography, photoplethysmography, and capnography, were recorded continuously._ <br/>
 
@@ -60,7 +60,7 @@
 </p> 
 <br>
 
-### Model Development  <br/><br/>
+### Model Development  <br/>
 
 - _The deep learning model was built using the Multi-head Attention model for feature-wise information and the Globally Attentive Locally Recurrent (GALR) model for time-wise information. The Multi-head Attention model made predictions by considering the importance ratio of the attributes in the input data. The GALR model evaluated the importance of time in input data. Finally, a fully connected model was developed by combining the Multi-head Attention and GALR models._ <br/>
 
@@ -73,7 +73,7 @@
 </p> 
 <br>
 
-### Metrix <br/><br/>
+### Metrix <br/>
 
 - _The primary outcome was the area under the receiver operating characteristic curve (AUROC) for the classification models._ <br/>
 <p align="center">
@@ -94,7 +94,7 @@
 
 - _The study outcomes were presented with 95% confidence intervals (CIs) estimated using the bootstrapping method. Descriptive statistics were used to describe patient characteristics and were expressed as means ± standard deviation (SD) or absolute numbers (proportion), as appropriate. The chi-square test for categorical variables and t-test for continuous variables were performed for comparative analysis._ <br/><br/>
 
-### Result <br/><br/>
+### Result <br/>
 
 - _The fully connected model, which combines the Multi-head Attention and the GALR model with a Focal Loss function, achieved the highest AUROC of 0.917 (95% CI, 0.915–0.918) for the test set of the original data and 0.833 (95% CI, 0.830–0.836) for the external validation dataset. The secondary outcomes, including accuracy, sensitivity, and specificity, are presented in Table 1._ <br/>
 
@@ -133,7 +133,7 @@ indicating that the patient is likely to develop hypotension in 5 min._ <br/>
 </p> 
 <br>
 
-### Conclusion <br/> <br/>
+### Conclusion <br/> 
 
 - _In conclusion, a deep learning algorithm based on routine non-invasive monitoring could predict the occurrence of intraoperative hypotension in diverse patients and surgeries. Our findings can expand the application of medical AI to a broad population undergoing surgery with only basic monitoring. Future research should test whether this algorithm is highly accurate when applied prospectively in clinical practice and whether it could improve postoperative outcomes._ <br/><br/><br/>
 
