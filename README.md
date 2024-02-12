@@ -1,7 +1,7 @@
 # 💉  Prediction of Intraoperative Hypotension Using Deep Learning Models Based on Non-invasive Monitoring Devices
 <br/>
  
-### Abstract <br/>
+### Overview <br/>
 
  - _Intraoperative hypotension is associated with adverse outcomes. Predicting and proactively managing hypotension can reduce its incidence. Previously, hypotension prediction algorithms using artificial intelligence were developed for invasive arterial blood pressure monitors. This study tested whether routine non-invasive monitors could also predict intraoperative hypotension using deep learning algorithms._ <br/><br/>
 
@@ -94,7 +94,7 @@
 
 - _The study outcomes were presented with 95% confidence intervals (CIs) estimated using the bootstrapping method. Descriptive statistics were used to describe patient characteristics and were expressed as means ± standard deviation (SD) or absolute numbers (proportion), as appropriate. The chi-square test for categorical variables and t-test for continuous variables were performed for comparative analysis._ <br/><br/>
 
-### Result <br/>
+### Results <br/>
 
 - _The fully connected model, which combines the Multi-head Attention and the GALR model with a Focal Loss function, achieved the highest AUROC of 0.917 (95% CI, 0.915–0.918) for the test set of the original data and 0.833 (95% CI, 0.830–0.836) for the external validation dataset. The secondary outcomes, including accuracy, sensitivity, and specificity, are presented in Table 1._ <br/>
 
@@ -167,4 +167,5 @@ indicating that the patient is likely to develop hypotension in 5 min._ <br/>
 </p>   
 
 ### 💾 Datasets used in the project
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AI Hub Dataset : Korean Face Image <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dataset from Non-cardiac Surgery Patients (Seoul National University Hospital, South Korea) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dataset from Non-cardiac Surgery Patients (Samsung Medical Center, South Korea) <br/>
