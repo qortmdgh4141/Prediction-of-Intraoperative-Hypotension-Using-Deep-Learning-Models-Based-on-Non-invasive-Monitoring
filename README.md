@@ -5,7 +5,7 @@
 
  - _Intraoperative hypotension is associated with adverse outcomes. Predicting and proactively managing hypotension can reduce its incidence. Previously, hypotension prediction algorithms using artificial intelligence were developed for invasive arterial blood pressure monitors. This study tested whether routine non-invasive monitors could also predict intraoperative hypotension using deep learning algorithms._ <br/><br/>
 
-### Dataset <br/><br/>
+### Participants and Dataset <br/><br/>
 
 - _An open-source database was used for algorithm development and internal validation (http://vitaldb.net/dataset). The open-source database consisted of 6388 patients who underwent non-cardiac surgery between June 2016 and August 2017 at Seoul National University Hospital,  South Korea, a tertiary referral hospital._ <br/>
 
@@ -16,6 +16,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _Patient characteristics and dataset compositions between hypotensive and non-hypotensive cases are summarized in Supplementary Table S1. Surgeries included general, gynecological, thoracic, and genitourinary surgeries. The mean ± SD age was 57 ± 14 years, and 49% of the participants in the training set were men. The comparison variables were well-balanced between hypotensive and nonhypotensive cases._ <br/>
 
@@ -24,6 +25,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 ### Data Preparation <br/><br/>
 
@@ -38,7 +40,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
-
+<br>
 
 - _In the training dataset, the ratio of intraoperative hypotension to non-hypotension cases was highly unbalanced at 1:9. Therefore, a Focal Loss function with a weighting mechanism was used to address the class imbalance problem. A Focal Loss function was applied during the training process to enable the model to learn intensively from rare hypotensive data. By dynamically adjusting the weighting of the training data, the Focal Loss function reoriented the learning process toward the minority class, thereby mitigating the detrimental effects of skewed data formulation_ <br/>
 
@@ -47,6 +49,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _Normalization was performed to improve the efficiency of the deep learning models by training them on patterns. Scaling was performed using minimum-maximum normalization to address potential differences in the distributions of the training and test data._ <br/>
   
@@ -55,6 +58,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 ### Model Development  <br/><br/>
 
@@ -67,7 +71,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
-
+<br>
 
 ### Metrix <br/><br/>
 
@@ -77,6 +81,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _The secondary outcomes included the accuracy, sensitivity, and specificity of the established model._ <br/>
   
@@ -85,6 +90,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _The study outcomes were presented with 95% confidence intervals (CIs) estimated using the bootstrapping method. Descriptive statistics were used to describe patient characteristics and were expressed as means ± standard deviation (SD) or absolute numbers (proportion), as appropriate. The chi-square test for categorical variables and t-test for continuous variables were performed for comparative analysis._ <br/><br/>
 
@@ -97,6 +103,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _We introduced attention mechanisms into our architecture. Figure 4 illustrates the attention map analysis employed to visualize the features and time domains utilized for decision-making in hypotension events. According to the attention map, our algorithm utilized data from each monitor with weights ranging from 5% to 22% for determining hypotension._ <br/>
 
@@ -105,6 +112,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _Among them, the bispectral index had the highest weight (20%) in predicting hypotension, and mean  blood pressure had the highest weight (22%) in predicting non-hypotension._ <br/>
 
@@ -113,6 +121,7 @@
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 - _Figure 3 is a monitor equipped with the algorithm, in which the circle changes from green to red, 
 indicating that the patient is likely to develop hypotension in 5 min._ <br/>
@@ -122,6 +131,7 @@ indicating that the patient is likely to develop hypotension in 5 min._ <br/>
   <br>
   <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
 </p> 
+<br>
 
 ### Conclusion <br/> <br/>
 
