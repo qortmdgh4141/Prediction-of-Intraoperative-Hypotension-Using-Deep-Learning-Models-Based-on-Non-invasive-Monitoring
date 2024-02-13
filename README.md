@@ -18,7 +18,7 @@
 </p> 
 <br>
 
-- _Patient characteristics and dataset compositions between hypotensive and non-hypotensive cases are summarized in Supplementary Table S1. Surgeries included general, gynecological, thoracic, and genitourinary surgeries. The mean ± SD age was 57 ± 14 years, and 49% of the participants in the training set were men. The comparison variables were well-balanced between hypotensive and nonhypotensive cases._ <br/>
+- _Patient characteristics and dataset compositions between hypotensive and non-hypotensive cases are summarized in Supplementary Table 1. Surgeries included general, gynecological, thoracic, and genitourinary surgeries. The mean ± SD age was 57 ± 14 years, and 49% of the participants in the training set were men. The comparison variables were well-balanced between hypotensive and nonhypotensive cases._ <br/>
 
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig2.png?raw=true">
