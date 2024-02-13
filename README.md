@@ -35,7 +35,7 @@
 
 - _Our classification tasks involved binary classification of hypotension events (systolic blood pressure < 90 mmHg) or non-hypotension events (systolic blood pressure >= 90 mmHg) occurring after 5 min. These input signals were extracted as 100 Hz input data in units of 30s, sequentially shifted by 10 s, and then extracted repeatedly._ <br/>
 
-<p align="left">
+<p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig3.png?raw=true">
   <br>
   <em> Figure 2) Study design and data processing. Five types of non-invasive biosignal (input data) were extracted as 100 Hz input data in units of 30s, sequentially shifted by 10 s, and then extracted repeatedly.</em>
@@ -47,7 +47,7 @@
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig4.png?raw=true">
   <br>
-  <em> Figure 3) Impact of Gamma on Focal Loss Function Compared to Cross-Entropy.</em>
+  <em> Figure 3) Illustrates the Impact of Gamma on Focal Loss Compared to Cross-Entropy.</em>
 </p> 
 <br>
 
@@ -66,7 +66,7 @@
 
 - _This approach enabled the model to leverage the strengths of both the feature and time axes, thereby enhancing its ability to effectively predict hypotension events._ <br/><br/>
 
-<p align="left">
+<p align="center">
   <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig6.png?raw=true">
   <br>
   <em> Figure 5) Concept of the final prediction model. Final model is a combination of the Multi-head Attention model and the Globally Attentive Locally Recurrent model with a Focal Loss function. Abbreviations: FC, fully connected; ConV, convolution; BN, Bayesian network.</em>
@@ -79,7 +79,7 @@
 <p align="center">
   <img width="70%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig7.png?raw=true">
   <br>
-  <em> Figure 6) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 6) Illustrates ROC Curve Analysis, where a larger AUROC signifies superior model performance in classification tasks.
 </p> 
 <br>
 
@@ -88,7 +88,7 @@
 <p align="center">
   <img width="70%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig8.png?raw=true">
   <br>
-  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 7) Formulas for Accuracy, Sensitivity, and Specificity in Model Evaluation.</em>
 </p> 
 <br>
 
@@ -101,7 +101,7 @@
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig9.png?raw=true">
   <br>
-  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+  <em> Table 2) Performance of the final model.</em>
 </p> 
 <br>
 
@@ -110,7 +110,7 @@
 <p align="center">
   <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig10_.png?raw=true">
   <br>
-  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 8) Classified Korean Facial Data into 8 Categories</em>
 </p> 
 <br>
 
@@ -119,7 +119,7 @@
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig11.png?raw=true">
   <br>
-  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 9) Classified Korean Facial Data into 8 Categories</em>
 </p> 
 <br>
 
@@ -129,7 +129,7 @@ indicating that the patient is likely to develop hypotension in 5 min._ <br/>
 <p align="center">
   <img width="60%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig12.png?raw=true">
   <br>
-  <em> Figure 1) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 10) A monitor equipped with the algorithm, in which the circle changes from green to red, indicating that the patients is likely to develop hypotension in 5 min.</em>
 </p> 
 <br>
 
