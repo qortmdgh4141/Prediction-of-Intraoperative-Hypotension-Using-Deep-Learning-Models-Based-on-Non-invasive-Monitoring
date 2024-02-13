@@ -42,7 +42,7 @@
 </p> 
 <br>
 
-- _In the training dataset, the ratio of intraoperative hypotension to non-hypotension cases was highly unbalanced at 1:9. Therefore, a Focal Loss function with a weighting mechanism was used to address the class imbalance problem. A Focal Loss function was applied during the training process to enable the model to learn intensively from rare hypotensive data. By dynamically adjusting the weighting of the training data, the Focal Loss function reoriented the learning process toward the minority class, thereby mitigating the detrimental effects of skewed data formulation_ <br/>
+- _In the training dataset, the ratio of intraoperative hypotension to non-hypotension cases was highly unbalanced at 1:9. Therefore, a Focal Loss function with a weighting mechanism was used to address the class imbalance problem. A Focal Loss function was applied during the training process to enable the model to learn intensively from rare hypotensive data. By dynamically adjusting the weighting of the training data, the Focal Loss function reoriented the learning process toward the minority class, thereby mitigating the detrimental effects of skewed data formulation._ <br/>
 
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig4.png?raw=true">
