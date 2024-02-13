@@ -110,7 +110,7 @@
 <p align="center">
   <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig10_.png?raw=true">
   <br>
-  <em> Figure 8) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 8)  Illustrates Attention Map Weights for Feature Importance in Hypotension Event Prediction.</em>
 </p> 
 <br>
 
@@ -119,7 +119,7 @@
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig11.png?raw=true">
   <br>
-  <em> Figure 9) Classified Korean Facial Data into 8 Categories</em>
+  <em> Figure 9)  Illustrates Attention Map Weights for Feature Importance in Hypotension Event Prediction.</em>
 </p> 
 <br>
 
