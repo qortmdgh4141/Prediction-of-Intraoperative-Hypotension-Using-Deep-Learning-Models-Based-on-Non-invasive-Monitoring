@@ -52,7 +52,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig4.png?raw=true">
   <br>
-  <em> Figure 3) Illustrates the Impact of Gamma on Focal Loss Compared to Cross-Entropy.</em>
+  <em> Figure 3) Comparison of Focal Loss with different γ values to Cross-Entropy Loss for class imbalance correction.</em>
 </p> 
 <br>
 
