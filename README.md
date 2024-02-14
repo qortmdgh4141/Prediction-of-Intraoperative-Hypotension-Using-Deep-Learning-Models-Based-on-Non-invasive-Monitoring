@@ -128,7 +128,7 @@ validation were extracted and processed in the same manner as the data used for 
 </p> 
 <br>
 
-- _Figure 3 is a monitor equipped with the algorithm, in which the circle changes from green to red, 
+- _Figure 10 is a monitor equipped with the algorithm, in which the circle changes from green to red, 
 indicating that the patient is likely to develop hypotension in 5 min._ <br/>
 
 <p align="center">
