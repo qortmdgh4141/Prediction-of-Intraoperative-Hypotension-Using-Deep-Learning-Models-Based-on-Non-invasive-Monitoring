@@ -97,7 +97,7 @@ validation were extracted and processed in the same manner as the data used for 
 </p> 
 <br>
 
-- _The study outcomes were presented with 95% confidence intervals (CIs) estimated using the bootstrapping method. Descriptive statistics were used to describe patient characteristics and were expressed as means ± standard deviation (SD) or absolute numbers (proportion), as appropriate. The chi-square test for categorical variables and t-test for continuous variables were performed for comparative analysis._ <br/><br/>
+- _The results of these evaluations, encompassing both the primary and secondary outcomes, are presented with 95% confidence intervals (CIs) estimated using the bootstrapping method._ <br/><br/>
 
 ### Results <br/>
 
