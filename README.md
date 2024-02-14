@@ -101,7 +101,7 @@ validation were extracted and processed in the same manner as the data used for 
 
 ### Results <br/>
 
-- _The fully connected model, which combines the Multi-head Attention and the GALR model with a Focal Loss function, achieved the highest AUROC of 0.917 (95% CI, 0.915–0.918) for the test set of the original data and 0.833 (95% CI, 0.830–0.836) for the external validation dataset. The secondary outcomes, including accuracy, sensitivity, and specificity, are presented in Table 1._ <br/>
+- _The fully connected model, which combines the Multi-head Attention and the GALR model with a Focal Loss function, achieved the highest AUROC of 0.917 (95% CI, 0.915–0.918) for the test set of the original data and 0.833 (95% CI, 0.830–0.836) for the external validation dataset. The secondary outcomes, including accuracy, sensitivity, and specificity, are presented in Table 2._ <br/>
 
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig9.png?raw=true">
