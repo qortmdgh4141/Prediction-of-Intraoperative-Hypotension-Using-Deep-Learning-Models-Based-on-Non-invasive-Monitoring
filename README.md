@@ -61,7 +61,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="35%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig5.png?raw=true">
   <br>
-  <em> Figure 4) Minimum-Maximum Normalization Formula.</em>
+  <em> Figure 4) Minimum-maximum normalization formula.</em>
 </p> 
 <br>
 
