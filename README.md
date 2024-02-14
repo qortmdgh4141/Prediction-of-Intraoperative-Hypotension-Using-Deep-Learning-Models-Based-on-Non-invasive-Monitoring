@@ -110,7 +110,7 @@ validation were extracted and processed in the same manner as the data used for 
 </p> 
 <br>
 
-- _We introduced attention mechanisms into our architecture. Figure 4 illustrates the attention map analysis employed to visualize the features and time domains utilized for decision-making in hypotension events. According to the attention map, our algorithm utilized data from each monitor with weights ranging from 5% to 22% for determining hypotension._ <br/>
+- _We introduced attention mechanisms into our architecture. Figure 8 illustrates the attention map analysis employed to visualize the features and time domains utilized for decision-making in hypotension events. According to the attention map, our algorithm utilized data from each monitor with weights ranging from 5% to 22% for determining hypotension._ <br/>
 
 <p align="center">
   <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig10_.png?raw=true">
