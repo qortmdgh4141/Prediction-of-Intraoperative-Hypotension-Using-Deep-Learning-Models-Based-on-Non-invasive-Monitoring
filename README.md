@@ -25,6 +25,7 @@
   <br>
   <em> Table 1) Patient characteristics and dataset composition between hypotensive and non-hypotensive cases.</em>
 </p> 
+<br>
 
 - _We externally validated the final model using a dataset from another hospital. The dataset for 
 external validation consisted of 421 patients who underwent non-cardiac surgery in April 2022 at the 
