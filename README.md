@@ -115,7 +115,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig10_.png?raw=true">
   <br>
-  <em> Figure 8)  Illustrates Attention Map Weights for Feature Importance in Hypotension Event Prediction.</em>
+  <em> Figure 8) Attention map visualization of features and time domains in hypotension event decision-making.</em>
 </p> 
 <br>
 
@@ -124,7 +124,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig11.png?raw=true">
   <br>
-  <em> Figure 9)  Illustrates Attention Map Weights for Feature Importance in Hypotension Event Prediction.</em>
+  <em> Figure 9)  Attention value of each non-invasive monitor to the prediction of hypotension (red) or nonhypotension(blue). Each number indicates how much each monitor contributes to the prediction: the higher the number, the higher the contribution. The bispectral index has the highest weight in predicting hypotension. Mean blood pressure has the highest weight in predicting the absence of hypotension.</em>
 </p> 
 <br>
 
