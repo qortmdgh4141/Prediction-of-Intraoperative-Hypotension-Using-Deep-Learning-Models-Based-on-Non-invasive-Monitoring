@@ -140,7 +140,7 @@ validation were extracted and processed in the same manner as the data used for 
 indicating that the patient is likely to develop hypotension in 5 min._ <br/>
 
 <p align="center">
-  <img width="60%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig12.png?raw=true">
+  <img width="60%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig12_.png?raw=true">
   <br>
   <div style="text-align: left; width: 50%; margin: auto;">
      <em> Figure 10) A monitor equipped with the algorithm, in which the circle changes from green to red, indicating that the patients is likely to develop hypotension in 5 min.</em>
