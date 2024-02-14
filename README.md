@@ -84,7 +84,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="70%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig7.png?raw=true">
   <br>
-  <em> Figure 6) Illustrates ROC Curve Analysis, where a larger AUROC signifies superior model performance in classification tasks.
+  <em> Figure 6) ROC Curve analysis demonstrating model performance in classification tasks, with larger AUROC indicating superiority.
 </p> 
 <br>
 
@@ -93,7 +93,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="70%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig8.png?raw=true">
   <br>
-  <em> Figure 7) Formulas for Accuracy, Sensitivity, and Specificity in Model Evaluation.</em>
+  <em> Figure 7) Formulas for Accuracy, Sensitivity, and Specificity.</em>
 </p> 
 <br>
 
