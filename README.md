@@ -74,7 +74,7 @@ validation were extracted and processed in the same manner as the data used for 
 <p align="center">
   <img width="90%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig6.png?raw=true">
   <br>
-  <em> Figure 5) Concept of the final prediction model. Final model is a combination of the Multi-head Attention model and the Globally Attentive Locally Recurrent model with a Focal Loss function. Abbreviations: FC, fully connected; ConV, convolution; BN, Bayesian network.</em>
+  <em> Figure 5) Concept of the final prediction model. Final model is a combination of the Multi-head Attention model and the Globally Attentive Locally Recurrent model with a Focal Loss function.</em>
 </p> 
 <br>
 
