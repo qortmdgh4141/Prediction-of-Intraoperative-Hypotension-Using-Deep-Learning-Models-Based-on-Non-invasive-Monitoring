@@ -14,7 +14,7 @@
 <p align="center">
   <img width="50%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig1.png?raw=true">
   <br>
-  <em> Figure 1) Composition of dataset.</em>
+    <em>Figure 1) Composition of dataset.</em>
 </p> 
 <br>
 
