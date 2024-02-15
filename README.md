@@ -128,7 +128,7 @@ validation were extracted and processed in the same manner as the data used for 
 - _Among them, the bispectral index had the highest weight (20%) in predicting hypotension, and mean  blood pressure had the highest weight (22%) in predicting non-hypotension._ <br/>
 
 <p align="center">
-  <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig11.png?raw=true">
+  <img width="75%" src="https://github.com/qortmdgh4141/GALR_Globally-Attentive-Locally-Recurrent-Model/blob/main/image/fig11_.png?raw=true">
   <br>
   <div style="text-align: left; width: 50%; margin: auto;">
      <em> Figure 9)  Attention value of each non-invasive monitor to the prediction of hypotension (red) or nonhypotension(blue). Each number indicates how much each monitor contributes to the prediction: the higher the number, the higher the contribution. The bispectral index has the highest weight in predicting hypotension. Mean blood pressure has the highest weight in predicting the absence of hypotension.</em>
